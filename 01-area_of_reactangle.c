@@ -7,11 +7,11 @@ int main()
     printf("Enter length of Reactangle: ");
     scanf("%f", &length);
 
-    printf("Enter breadth of Reactangle: ");
+    printf("\nEnter breadth of Reactangle: ");
     scanf("%f", &breadth);
 
     float area = length * breadth;
-    printf("Area of Rectangle = %.2f", area);
+    printf("\nArea of Rectangle = %.2f", area);
 
     return 0;
 }
